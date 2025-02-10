@@ -123,7 +123,7 @@ python ./demo3_GNN/demo3-2_GAT.py
 3. HGNN Models
 ```bash
 # Train and evaluate HyGNN/HGNN-SA
-python ./demo4_HGNN/main.py
+python ./demo4_HGNN/main.py --algorithm smiles2vec --output ./output/ --balanced True --atom_ratio 0.5 --negative_ratio 1 --seed 42
 ```
 
 To switch between HyGNN and HGNN-SA models, modify the `enable_hygnn` parameter in the model initialization in `main.py`:

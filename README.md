@@ -1,5 +1,11 @@
 # HODDI: A Dataset of High-Order Drug-Drug Interactions for Computational Pharmacovigilance
 
+[arXiv Paper](https://arxiv.org/abs/2502.06274)
+
+<div align="center">
+  <img src="./assets/paper_title.png" alt="Paper Title" width="800"/>
+</div>
+
 ## Overview
 
 HODDI (Higher-Order Drug-Drug Interaction Dataset) is a comprehensive dataset specifically designed to capture higher-order multi-drug interactions and their collective impact on adverse effects. Constructed from the Food and Drug Administration (FDA) Adverse Event Reporting System (FAERS) spanning 2014Q3-2024Q3, HODDI contains 109,744 records involving 2,506 unique drugs and 4,569 unique side effects. 
@@ -164,4 +170,17 @@ python ./demo5_visualization/demo5-5_se_distribution_in_positive_samples.py
 
 # Temporal trends analysis
 python ./demo5_visualization/demo5-6_quarterly_trends.py
+```
+
+### Citation
+```latex
+@misc{wang2025hoddidatasethighorderdrugdrug,
+      title={HODDI: A Dataset of High-Order Drug-Drug Interactions for Computational Pharmacovigilance}, 
+      author={Zhaoying Wang and Yingdan Shi and Xiang Liu and Can Chen and Jun Wen and Ren Wang},
+      year={2025},
+      eprint={2502.06274},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2502.06274}, 
+}
 ```

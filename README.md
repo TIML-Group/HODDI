@@ -177,10 +177,7 @@ python ./demo5_visualization/demo5-6_quarterly_trends.py
 @misc{wang2025hoddidatasethighorderdrugdrug,
       title={HODDI: A Dataset of High-Order Drug-Drug Interactions for Computational Pharmacovigilance}, 
       author={Zhaoying Wang and Yingdan Shi and Xiang Liu and Can Chen and Jun Wen and Ren Wang},
+      journal={https://arxiv.org/abs/2502.06274},
       year={2025},
-      eprint={2502.06274},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2502.06274}, 
 }
 ```

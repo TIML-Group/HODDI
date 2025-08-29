@@ -6,6 +6,15 @@
   <img src="./assets/paper_title.png" alt="Paper Title" width="800"/>
 </div>
 
+## ⚠️ Latest Version Available
+
+Due to the update of the data preprocessing pipeline, we have released HODDI_v2 recently. All versions of the HODDI dataset are preserved in the `dataset` folder for reproducibility and comparison purposes. 
+
+**Please select the appropriate HODDI dataset version based on your application requirements and modify the corresponding dataset paths in your code accordingly.**
+
+- `dataset/HODDI_v1/`: Original version of the dataset
+- `dataset/HODDI_v2/`: Updated version with improved preprocessing pipeline
+
 ## Overview
 
 HODDI (Higher-Order Drug-Drug Interaction Dataset) is a comprehensive dataset specifically designed to capture higher-order multi-drug interactions and their collective impact on adverse effects. Constructed from the Food and Drug Administration (FDA) Adverse Event Reporting System (FAERS) spanning 2014Q3-2024Q3, HODDI contains 109,744 records involving 2,506 unique drugs and 4,569 unique side effects. 
